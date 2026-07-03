@@ -1,6 +1,7 @@
 import Navbar from './components/Navbar';
 import { Hero } from './components/Hero';
 import { WhyChoose }  from './components/WhyChoose';
+import { CourseList } from './components/CourseList';
 
 export default function App() {
   return (
@@ -8,12 +9,16 @@ export default function App() {
       <header className='flex justify-between items-center'>
         <Navbar />
       </header> 
-       <section id='hero-section'>
+       <section id='hero'>
         <Hero />
       </section>  
 
-      <section id='why-choose-us-section'>
+      <section id='about'>
         <WhyChoose />
+      </section>
+
+      <section id='courses'>
+        <CourseList />
       </section>
     </main>
   );

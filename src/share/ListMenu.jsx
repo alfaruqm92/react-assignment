@@ -1,15 +1,15 @@
 const ListMenu = [
   {
     title: "Home",
-    href: "#",
+    href: "#hero",
   },
   {
     title: "Courses",
-    href: "#",
+    href: "#courses",
   },
   {
     title: "About",
-    href: "#",
+    href: "#about",
   },
   {
     title: "Contact",
